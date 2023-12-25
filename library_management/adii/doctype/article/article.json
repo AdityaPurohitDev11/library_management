@@ -1,8 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:article_name",
- "creation": "2023-12-23 17:40:46.982963",
+ "creation": "2023-12-25 15:46:12.154027",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -10,7 +9,7 @@
  "field_order": [
   "article_name",
   "image",
-  "author",
+  "authore",
   "description",
   "isbn",
   "status",
@@ -22,18 +21,17 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Article Name",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "image",
-   "fieldtype": "Attach",
+   "fieldtype": "Attach Image",
    "label": "Image"
   },
   {
-   "fieldname": "author",
+   "fieldname": "authore",
    "fieldtype": "Data",
-   "label": "Author"
+   "label": "Authore"
   },
   {
    "fieldname": "description",
@@ -48,8 +46,7 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
-   "label": "Status",
-   "options": "Issued\nAvailable"
+   "label": "Status"
   },
   {
    "fieldname": "publisher",
@@ -59,11 +56,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-23 17:56:17.519987",
+ "modified": "2023-12-25 15:46:12.154027",
  "modified_by": "Administrator",
  "module": "adii",
  "name": "Article",
- "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
